@@ -1,0 +1,216 @@
+/*==============================================================================
+# LTB Self Service Password
+#
+# Copyright (C) 2009 Clement OUDOT
+# Copyright (C) 2009 LTB-project.org
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# GPL License: http://www.gnu.org/licenses/gpl.txt
+#
+#==============================================================================*/
+
+body {
+font-family:Arial, Helvetica, Verdana;
+font-size:11pt;
+color:#000;
+background:#eee;
+margin:0;
+padding:0;
+}
+
+h1, h2, h3, h4 {
+margin:0;
+padding:0 0 5px 0;
+}
+
+a img,:link img,:visited img {
+border:none
+float: left;
+}
+
+a, a:link, a:visited {
+text-decoration:none;
+color:#336699;
+}
+
+a:hover {
+text-decoration: underline;
+color:#336699;
+}
+
+#surround {
+background:#fff;
+padding:10px;
+}
+
+#content {
+margin-right:40px;
+margin-left:155px;
+padding:10px;
+background:#fff;
+border:1px solid #C6D880;
+/* text-align:center;  */
+}
+
+form {
+display:block;
+overflow:visible;
+padding:0;
+margin:10px 30%;
+background-color:#dff4ff;
+border:1px solid #c2e1ef;
+color:#336699;
+}
+
+form table {
+border:0;
+margin:0 auto;
+}
+
+form th {
+text-align: right;
+}
+
+form input {
+border:1px solid #c2e1ef;
+background:#FFFFFF 5px 5px no-repeat;
+padding:5px; 
+/* padding-left:25px; */
+width: 200px;
+}
+
+
+form input[type=submit] { 
+background:#f0f0f0 ;
+text-align: center;
+width: 100px;
+font-family:Arial, Helvetica, Verdana;
+font-size:10pt;
+}
+
+
+form input[name=login] {
+padding-left:25px;
+background:#FFFFFF url("user_suit.png") 5px 5px no-repeat;
+padding-left:25px;
+}
+
+
+/*
+form input[name=mail] {
+background:#FFFFFF url("mail.png") 5px 5px no-repeat;
+padding-left:25px;
+}
+*/
+
+
+form input[type=password] {
+padding-left:25px;
+background:#FFFFFF url("key.png") 5px 5px no-repeat;
+padding-left: 25px;
+}
+
+
+/*
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+*/
+
+#errorExplanation {
+  width: 500px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#noticeExplanation {
+  width: 500px;
+  border: 2px solid green;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#footer {
+  width: 500px;
+  text-align: center;
+  font-size: 8pt;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#forgot{
+  text-align: right;
+  font-size: 8pt;
+  margin-left: auto ;
+}
+
+#logout {
+  text-align: right;
+  font-size: 8pt;
+  margin-left: auto ;
+}
+#masthead{
+	vertical-align:text-top;
+	text-align:center;
+	margin-bottom:20px;
+}
+#mastheadText{
+	display:inline;
+	vertical-align:top;
+	text-align:center;
+}
+#menu {
+	position:fixed;
+	float:left;
+	width:150px;	
+	height:100%; 
+}
+#menu dl {
+	margin: 0 auto; 
+}
+#menu dd {
+	margin:0; 
+	padding:0; 
+}
+#foo a, #foo a:visited {
+	display:block; 
+	padding:2px 2px 2px 10px;
+}
+/*
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+*/
+                      
