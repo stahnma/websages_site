@@ -192,9 +192,9 @@ padding-left: 25px;
 	padding:2px 2px 2px 10px;
 }
 /**/
-#outline {margin-right:10px;margin-left:155px;padding:10px;background: transparent; margin:10px 1em 100px 1em;}
+#outline {margin-left:140px;background: transparent; margin:10px 1em 100px 1em;}
 
-.oTop, .oBottom {margin-right:10px;margin-left:155px;display:block; background:transparent; font-size:1px;}
+.oTop, .oBottom {margin-left:140px;display:block; background:transparent; font-size:1px;}
 .ob1, .ob2, .ob3, .ob4 {display:block; overflow:hidden;}
 .ob1, .ob2, .ob3 {height:1px;}
 .ob2, .ob3, .ob4 {background:#fff; border-left:1px solid #C6D880; border-right:1px solid #C6D880;}
@@ -203,7 +203,7 @@ padding-left: 25px;
 .ob3 {margin:0 2px;}
 .ob4 {height:2px; margin:0 1px;}
 
-.content {margin-right:10px;margin-left:155px;padding:10px;display:block; background:#fff; border:0 solid #C6D880; border-width:0 1px;}
+.content {margin-left:140px;padding:10px;display:block; background:#fff; border:0 solid #C6D880; border-width:0 1px;}
 
 h2.nice{margin:10px;color:#333333;}
 hr.nice {
@@ -225,6 +225,15 @@ div.rounded div {
 }
 .print{
 	font-size:xx-small;
+	display:inline;
+	vertical-align:top;
+	float:right;
+	text-align:right;
+}
+.title{ 
+	display:inline;
+	font-weight:bold;
+	font-size:xx-large;
 }
 .printFriendly{
 	background:#FFF;
