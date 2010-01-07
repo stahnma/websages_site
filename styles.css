@@ -223,6 +223,12 @@ div.rounded div {
   text-align: right;
   width: 30px;
 }
+.print{
+	font-size:xx-small;
+}
+.printFriendly{
+	background:#FFF;
+}
 /**/
 /*
 #errorExplanation h2 {
