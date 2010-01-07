@@ -231,9 +231,9 @@ div.rounded div {
 	text-align:right;
 }
 .title{ 
-	display:inline;
 	font-weight:bold;
 	font-size:xx-large;
+	text-align:center;
 }
 .printFriendly{
 	background:#FFF;
