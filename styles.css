@@ -212,10 +212,10 @@ hr.nice {
 	height: 2px;
 	background-color:#FFFFFF;
 }
-div#nifty {background: #E7E7E7;}
-div#nifty2 {background: #E8FFC9;}
-div#nifty3 {background: #DBDDFF;}
-div#nifty4 {background: #FFDED3;}
+div#nifty {background: #EFEFEF;}
+div#nifty2 {background: #EEFFEE;}
+div#nifty3 {background: #EEEEFF;}
+div#nifty4 {background: #FFEEEE;}
 div.rounded div {
   height: 1px;
   overflow: hidden;
