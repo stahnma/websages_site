@@ -19,33 +19,39 @@
 		return;
 		}
 		Rounded("div#nifty0", "#FFFFFF", "#FFFFFF", 10, 10);
-		Rounded("div#nifty", "#FFFFFF", "#EFEFEF", 10, 10);
-		Rounded("div#nifty2", "#FFFFFF", "#EEFFEE", 10, 10);
-		Rounded("div#nifty3", "#FFFFFF", "#EEEEFF", 10, 10);
-		Rounded("div#nifty4", "#FFFFFF", "#FFEEEE", 10, 10);
+		Rounded("div#nifty", "#FFFFFF", "#F4F4DC", 10, 10);
+		Rounded("div#nifty2", "#FFFFFF", "#E7F4D0", 10, 10);
+		Rounded("div#nifty3", "#FFFFFF", "#F4F4DC", 10, 10);
+		Rounded("div#nifty4", "#FFFFFF", "#E7F4D0", 10, 10);
 	}
 	</script>
 </head>
 <body>
+
 <div id="surround">
-<div id="menu">
-	<dt><img src="http://odin.websages.com/password/style/logo.png" alt="WebSages Account Management" title="WebSages Account Management" width="150px"/></dt>
-	<dl id="foo">
-		<dd><a href="#">Products</a></dd>
-		<dd><a href="#">Services</a></dd>
-		<dd><a href="#">Hosting</a></dd>
-		<dd><a href="#">About</a></dd>
-		<dd><a href="#">Connect</a></dd>
-	</dl>
-</div>
 <div id="masthead">
+<div>
+<span><img src="http://odin.websages.com/password/style/logo.png" alt="WebSages Account Management" title="WebSages Account Management" width="100px"/>
+</span><span>
 <img src="./websages3.png"/>
+</span>
+</div>
+</div>
+<div id="menu">
+	<ol id="foo">
+		<li><a href="#">Products</a></li>
+		<li><a href="#">Services</a></li>
+		<li><a href="#">Hosting</a></li>
+		<li><a class="current" href="#">About</a></li>
+		<li><a href="#">Contact</a></li>
+	</ol>
 </div>
 
+
 <div id="outline">
-<b class="oTop"><b class="ob1"></b><b class="ob2"></b><b class="ob3"></b><b class="ob4"></b></b>
 <div class="content">
 <div class="print"><a href="./presentationPrint.html"><img src="printIcon.png" width="10px"/>&nbsp;Print</a></div>
+<br />
 <div id="nifty0">
 <h1 class="nice">Infrastructure Manifesto as authored by James White</h1>
 </div>
@@ -53,7 +59,6 @@
 <div id="nifty">
 
 <h2 class="nice"> On Infrastructure</h2>
-<hr class="nice">
 <ul>
 <li> There is one system, not a collection of systems. </li>
 <li> The desired state of the system should be a known quantity. </li>
@@ -66,7 +71,6 @@
 <br />
 <div id="nifty2">
 <h2 class="nice"> On Buying Software</h2>
-<hr class="nice">
 <ul>
 <li> Keep the components in the infrastructure simple so it will be better understood.</li>
 <li> All products must authenticate and authorize from external, configurable sources.</li>
@@ -79,7 +83,6 @@
 <br />
 <div id="nifty3">
 <h2 class="nice"> On Automation</h2>
-<hr class="nice">
 <ul>
 <li> Do not author any code you would not buy.</li>
 <li> Do not implement any product that does not provide an API.</li>
@@ -95,7 +98,6 @@
 <br />
 <div id="nifty4">
 <h2 class="nice"> In General</h2>
-<hr class="nice">
 <ul>
 <li> Keep the disparity in your architecture to an absolute minimum.</li>
 <li> Use <a href="http://en.wikipedia.org/wiki/Set_theory Set Theory">Set Theory</a> to accomplish this.</li>
